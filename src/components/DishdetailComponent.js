@@ -3,14 +3,6 @@ import { Card, CardImg, CardText, CardBody,
     CardTitle } from 'reactstrap';
 
 
-    componentDidMount() {
-        console.log('Dishdetail Component componentDidMount invoked')
-    }
-
-    componentDidUpdate() {
-        console.log('Dishdetail Component componentDidUpdate invoked')
-    }
-
     function RenderDish({dish}) {
             return (
               <div  className="col-12 col-md-5 m-1">
@@ -69,7 +61,7 @@ import { Card, CardImg, CardText, CardBody,
                 <div></div>
             );
         
-    };
-}    
+    }
+    
 
 export default DishDetail;
